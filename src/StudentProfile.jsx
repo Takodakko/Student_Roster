@@ -4,11 +4,11 @@ function StudentProfile(props) {
   })
   return (
     <div>
-      <div>Name: {props.name}</div>
+      <div><strong>Name:</strong> {props.name}</div>
       <img src={props.pic} height="120px" width="120px"></img>
-      <div>Age: {props.age}</div>
-      <ul>Interests: {interests}</ul>
-      <div>Crest: {props.crest}</div>
+      <div><strong>Age:</strong> {props.age}</div>
+      <ul><strong>Interests:</strong> {interests}</ul>
+      <div><strong>Crest:</strong> {props.crest}</div>
     </div>
   )
 }

@@ -9,7 +9,7 @@ function App() {
   .then((data) => {
     return (data.json())})
   .then((data) => {
-      return setStudentData(data.studentlist)}), []})
+      return setStudentData(data.studentlist)})}, [])
   
   return (
     studentData.map((student) => 
