@@ -1,0 +1,44 @@
+{
+  "studentlist": [
+    {
+      "id": 1,
+      "face": "../images/claude.png",
+      "name": "Claude",
+      "age": 17,
+      "likes": ["tactics", "schemes", "parties"],
+      "crest": "Minor Crest of Riegan"
+    },
+    {
+      "id": 2,
+      "face": "../images/leonie.png",
+      "name": "Leonie",
+      "age": 19,
+      "likes": ["saving money", "bow maintenance", "CAPTAIN JERALT"],
+      "crest": "none"
+    },
+    {
+      "id": 3,
+      "face": "../images/hapi.png",
+      "name": "Hapi",
+      "age": 20,
+      "likes": ["pretty stones", "star gazing", "nicknames"],
+      "crest": "Minor Crest of Timotheos"
+    },
+    {
+      "id": 4,
+      "face": "../images/lysithea.png",
+      "name": "Lysithea",
+      "age": 15,
+      "likes": ["sweets", "magic research", "studying"],
+      "crest": "Major Crest of Gloucester / Minor Crest of Charon"
+    },
+    {
+      "id": 5,
+      "face": "../images/sylvain.png",
+      "name": "Sylvain",
+      "age": 19,
+      "likes": ["art and theater", "flirting", "taking it easy"],
+      "crest": "Minor Crest of Gautier"
+    }
+  ]
+}
