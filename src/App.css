@@ -25,4 +25,11 @@ button {
 
 .student-box {
   width: 30em;
+  margin-left: 2em;
+}
+
+#name-search {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
