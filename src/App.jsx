@@ -12,7 +12,7 @@ function App() {
   
   return (
     studentData.map((student) => 
-      <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest}/>
+      <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest} crestEffect={student.crestEffect}/>
     )
   
     
