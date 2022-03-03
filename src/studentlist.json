@@ -76,6 +76,17 @@
       "crest": "none",
       "crestEffect": "Right makes might, right?",
       "color": "aquamarine"
+    },
+    {
+      "id": 8,
+      "face": "../images/balthus.png",
+      "crestIcon": ["../images/chevalier.png"],
+      "name": "Balthus",
+      "age": 26,
+      "likes": ["brawling", "adventure", "punching beasts", "older women"],
+      "crest": "Major Crest of Chevalier",
+      "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
+      "color": "brown"
     }
   ]
 }

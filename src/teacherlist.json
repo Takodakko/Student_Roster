@@ -1,0 +1,15 @@
+{
+  "teacherlist": [
+    {
+      "id": 100,
+      "face": "../images/shamir.png",
+      "crestIcon": [""],
+      "name": "Shamir",
+      "age": 25,
+      "likes": ["silence", "telling it like it is"],
+      "crest": "none",
+      "crestEffect": "...",
+      "color": "purple"
+    }
+  ]
+}

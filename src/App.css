@@ -35,3 +35,14 @@ button {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+#doublelists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#teachertoggle {
+  margin-left: auto;
+  margin-right: auto;
+}
