@@ -26,6 +26,8 @@ button {
 .student-box {
   width: 30em;
   margin-left: 2em;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 #name-search {

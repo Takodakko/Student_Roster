@@ -14,7 +14,7 @@ function App() {
     <div>
     <input type="text" id="name-search" placeholder='type a name'></input>
     {studentData.map((student) => 
-      <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest} crestEffect={student.crestEffect}/>
+      <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest} crestEffect={student.crestEffect} uniquecolor={student.color} cresticon={student.crestIcon}/>
     )}
     </div>
     

@@ -3,47 +3,79 @@
     {
       "id": 1,
       "face": "../images/claude.png",
+      "crestIcon": ["../images/riegan.png"],
       "name": "Claude",
       "age": 17,
       "likes": ["tactics", "schemes", "parties"],
       "crest": "Minor Crest of Riegan",
-      "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts."
+      "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
+      "color": "yellow"
     },
     {
       "id": 2,
       "face": "../images/leonie.png",
+      "crestIcon": [""],
       "name": "Leonie",
       "age": 19,
       "likes": ["saving money", "bow maintenance", "CAPTAIN JERALT"],
       "crest": "none",
-      "crestEffect": "n/a"
+      "crestEffect": "CAPTAIN JERALT > crest",
+      "color": "orange"
     },
     {
       "id": 3,
       "face": "../images/hapi.png",
+      "crestIcon": ["../images/timotheos.png"],
       "name": "Hapi",
       "age": 20,
       "likes": ["pretty stones", "star gazing", "nicknames"],
       "crest": "Minor Crest of Timotheos",
-      "crestEffect": "Conserves uses of recovery magic."
+      "crestEffect": "Conserves uses of recovery magic.",
+      "color": "green"
     },
     {
       "id": 4,
       "face": "../images/lysithea.png",
+      "crestIcon": ["../images/gloucester.png", "../images/charon.png"],
       "name": "Lysithea",
       "age": 15,
       "likes": ["sweets", "magic research", "studying"],
       "crest": "Major Crest of Gloucester / Minor Crest of Charon",
-      "crestEffect": "Raises Might by 5 during magic attacks. / Raises Might when using combat arts."
+      "crestEffect": "Raises Might by 5 during magic attacks. / Raises Might when using combat arts.",
+      "color": "silver"
     },
     {
       "id": 5,
       "face": "../images/sylvain.png",
+      "crestIcon": ["../images/gautier.png"],
       "name": "Sylvain",
       "age": 19,
       "likes": ["art and theater", "flirting", "taking it easy"],
       "crest": "Minor Crest of Gautier",
-      "crestEffect": "Raises Might by 5 when using combat arts."
+      "crestEffect": "Raises Might by 5 when using combat arts.",
+      "color": "gray"
+    },
+    {
+      "id": 6,
+      "face": "../images/hilda.png",
+      "crestIcon": ["../images/goneril.png"],
+      "name": "Hilda",
+      "age": 18,
+      "likes": ["chatting", "omg! accessories!", "like, taking it easy and stuff"],
+      "crest": "Minor Crest of Goneril",
+      "crestEffect": "Prevents enemy counterattacks when using combat arts.",
+      "color": "pink"
+    },
+    {
+      "id": 7,
+      "face": "../images/caspar.png",
+      "crestIcon": [""],
+      "name": "Caspar",
+      "age": 16,
+      "likes": ["training", "quick meals", "よっしゃ〜！いくぜぇ！"],
+      "crest": "none",
+      "crestEffect": "Right makes might, right?",
+      "color": "aquamarine"
     }
   ]
 }
