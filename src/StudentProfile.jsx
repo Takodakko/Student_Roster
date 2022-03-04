@@ -3,6 +3,21 @@ import { useState } from 'react';
 
 function StudentProfile(props) {
   const [isShown, setIsShown] = useState(false);
+  const houseIcon = ()=> {
+    if (props.house === "Golden Deer") {
+      return "../images/Golden_Deer_Banner.webp"
+    } else if (props.house === "Blue Lions") {
+      return "../images/Blue_Lions_Banner.webp"
+    } else if (props.house === "Black Eagles") {
+      return "../images/Black_Eagles_Banner.webp"
+    } else if (props.house === "Ashen Wolves") {
+      return "../images/Ashen_Wolves_Banner.webp"
+    } else {
+      return "../images/Church_of_Seiros_Banner.webp"
+    }
+  }
+  // const crestEffectText = {__html: props.crestEffect};
+  const ownHouse = [props.house, houseIcon()];
   const coursesTaught = props.courses.map((course) => {
     return <li key={props.name + course}><i>{course}</i></li>
   }) || null;
@@ -35,6 +50,7 @@ function StudentProfile(props) {
       <div className="name"><strong>Name:</strong> {props.name}</div>
       <img src={props.pic} height="120px" width="120px"></img>
       <div><strong>Age:</strong> {props.age}</div>
+      <div className="house-tag"><strong>House: </strong>{ownHouse[0]}<img src={ownHouse[1]} height="70px" width="50px"></img></div>
       <ul><strong>Interests:</strong> {interests}</ul>
       <ul style={!coursesTaught.length ? {display: "none"} : {display: "block"}}><strong>Courses Taught: </strong>{coursesTaught}</ul>
       <ul style={!favoriteSubjects.length ? {display: "none"} : {display: "block"}}><strong>Favorite Subjects: </strong>{favoriteSubjects}</ul>

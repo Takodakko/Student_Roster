@@ -8,3 +8,8 @@
   width: 20em;
 }
 
+.house-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

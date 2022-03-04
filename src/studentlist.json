@@ -10,7 +10,8 @@
       "crest": "Minor Crest of Riegan",
       "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
       "color": "yellow",
-      "favSubjects": ["Bows", "Flying", "Swords", "Horse Riding", "Tactics", "Axes??"]
+      "favSubjects": ["Bows", "Flying", "Swords", "Horse Riding", "Tactics", "Axes??"],
+      "house": "Golden Deer"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "crest": "none",
       "crestEffect": "CAPTAIN JERALT > crest",
       "color": "orange",
-      "favSubjects": ["Bows", "Lances", "Horse Riding"]
+      "favSubjects": ["Bows", "Lances", "Horse Riding"],
+      "house": "Golden Deer"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "crest": "Minor Crest of Timotheos",
       "crestEffect": "Conserves uses of recovery magic.",
       "color": "green",
-      "favSubjects": ["Dark Magic", "Flying", "Horse Riding", "Axes??"]
+      "favSubjects": ["Dark Magic", "Flying", "Horse Riding", "Axes??"],
+      "house": "Ashen Wolves"
     },
     {
       "id": 4,
@@ -44,9 +47,10 @@
       "age": 15,
       "likes": ["sweets", "magic research", "studying"],
       "crest": "Major Crest of Gloucester / Minor Crest of Charon",
-      "crestEffect": "Raises Might by 5 during magic attacks. / Raises Might when using combat arts.",
+      "crestEffect": "Raises Might by 5 during magic attacks.  /  Raises Might when using combat arts.",
       "color": "silver",
-      "favSubjects": ["Dark Magic", "White Magic", "Tactics", "Swords??"]
+      "favSubjects": ["Dark Magic", "White Magic", "Tactics", "Swords??"],
+      "house": "Golden Deer"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "crest": "Minor Crest of Gautier",
       "crestEffect": "Raises Might by 5 when using combat arts.",
       "color": "gray",
-      "favSubjects": ["Lances", "Axes", "Horse Riding", "Black Magic??"]
+      "favSubjects": ["Lances", "Axes", "Horse Riding", "Black Magic??"],
+      "house": "Blue Lions"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "crest": "Minor Crest of Goneril",
       "crestEffect": "Prevents enemy counterattacks when using combat arts.",
       "color": "pink",
-      "favSubjects": ["Axes", "Lances", "Armor??"]
+      "favSubjects": ["Axes", "Lances", "Armor??"],
+      "house": "Golden Deer"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "crest": "none",
       "crestEffect": "Right makes might, right?",
       "color": "aquamarine",
-      "favSubjects": ["Gauntlets", "Axes"]
+      "favSubjects": ["Gauntlets", "Axes"],
+      "house": "Black Eagles"
     },
     {
       "id": 8,
@@ -94,7 +101,21 @@
       "crest": "Major Crest of Chevalier",
       "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
       "color": "brown",
-      "favSubjects": ["Gauntlets", "Axes", "Swords", "Armor", "White Magic", "Black Magic??"]
+      "favSubjects": ["Gauntlets", "Axes", "Swords", "Armor", "White Magic", "Black Magic??"],
+      "house": "Ashen Wolves"
+    },
+    {
+      "id": 9,
+      "face": "../images/edelgard.png",
+      "crestIcon": ["../images/flames.png", "../images/seiros.png"],
+      "name": "Edelgard",
+      "age": 17,
+      "likes": ["reading", "political history", "solitary exploring"],
+      "crest": "Major Crest of Flames / Minor Crest of Seiros",
+      "crestEffect": "Restores HP equal to 30% of damage dealt when using weapons, combat arts or attack magic. Also has a roughly 1 in 4 chance to raise Might by 5 and prevent counterattacks.  /  Raises Might by 5 when using combat arts.",
+      "color": "darkred",
+      "favSubjects": ["Axes", "Swords", "Armor", "Tactics", "Dark Magic??"],
+      "house": "Black Eagles"
     }
   ]
 }

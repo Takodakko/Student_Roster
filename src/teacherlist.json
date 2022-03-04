@@ -10,7 +10,8 @@
       "crest": "none",
       "crestEffect": "...",
       "color": "purple",
-      "courses": ["Sit down, Shut up, and Snipe", "How to Breathe", "Foreign Bow Techniques"]
+      "courses": ["Sit down, Shut up, and Snipe", "How to Breathe", "Foreign Bow Techniques"],
+      "house": "Garreg Mach"
     },
     {
       "id": 101,
@@ -22,7 +23,8 @@
       "crest": "Minor Crest of Lamine",
       "crestEffect": "Conserves uses of recovery magic.",
       "color": "wheat",
-      "courses": ["Fight me", "Dueling 101", "Relishing in the blood of your enemies"]
+      "courses": ["Fight me", "Dueling 101", "Relishing in the blood of your enemies"],
+      "house": "Garreg Mach"
     },
     {
       "id": 102,
@@ -34,7 +36,8 @@
       "crest": "Minor Crest of Indech",
       "crestEffect": "Strike twice when using a weapon.",
       "color": "tan",
-      "courses": ["The Physical Mage: How to Incorporate Bow Techniques into your training", "Fire from your Fingertips: A Magic Introduction", "Leveraging Crest Power"]
+      "courses": ["The Physical Mage: How to Incorporate Bow Techniques into your training", "Fire from your Fingertips: A Magic Introduction", "Leveraging Crest Power"],
+      "house": "Garreg Mach"
     },
     {
       "id": 103,
@@ -46,7 +49,8 @@
       "crest": "Major Crest of Charon",
       "crestEffect": "Raises Might when using combat arts.",
       "color": "red",
-      "courses": ["Advanced Sword Techniques", "Just Punch the Guy: What to do when Disarmed", "Philosophy 101: Why Seiros is Always Right"]
+      "courses": ["Advanced Sword Techniques", "Just Punch the Guy: What to do when Disarmed", "Philosophy 101: Why Seiros is Always Right"],
+      "house": "Garreg Mach"
     },
     {
       "id": 104,
@@ -58,7 +62,47 @@
       "crest": "none",
       "crestEffect": "I have not come *ACRESS* *A CREST*!",
       "color": "blue",
-      "courses": ["Axing Questions about Axes: How to Axentuate your Axe Skills", "Gon' Let you Use some Gauntlets: Fisticuffs 101", "Advanced Fishing"]
+      "courses": ["Axing Questions about Axes: How to Axentuate your Axe Skills", "Gon' Let you Use some Gauntlets: Fisticuffs 101", "Advanced Fishing"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 105,
+      "face": "../images/byleth.png",
+      "crestIcon": ["../images/flames.png"],
+      "name": "Byleth",
+      "age": 20,
+      "likes": ["...", "....", "....."],
+      "crest": "Major Crest of Flames",
+      "crestEffect": "Restores HP equal to 30% of damage dealt when using weapons, combat arts or attack magic. Also has a roughly 1 in 4 chance to raise Might by 5 and prevent counterattacks.",
+      "color": "cyan",
+      "courses": ["Fishing 101", "Practical Battlefield Knowledge", "Intro to Cooking"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 106,
+      "face": "../images/seteth.png",
+      "crestIcon": ["../images/cichol.png"],
+      "name": "Seteth",
+      "age": "??",
+      "likes": ["fishing", "story writing", "Flayn"],
+      "crest": "Major Crest of Cichol",
+      "crestEffect": "Prevents enemy counterattacks when using combat arts.",
+      "color": "darkgreen",
+      "courses": ["Fishing 202", "The Teachings of Seiros", "Creative Writing"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 107,
+      "face": "../images/manuela.png",
+      "crestIcon": [""],
+      "name": "Manuela",
+      "age": "??",
+      "likes": ["fashion", "singing", "true love"],
+      "crest": "none",
+      "crestEffect": "-",
+      "color": "darkpurple",
+      "courses": ["Healing with Spells", "Take to the Skies: Mastering the Pegasus and the Wyvern", "Health and Relationships for Young Adults"],
+      "house": "Garreg Mach"
     }
   ]
 }
