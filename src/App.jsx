@@ -11,7 +11,7 @@ function App() {
   
   function switchLists() {
     setTeacherList(!teacherList);
-    if (teacherList) {
+    if (!teacherList) {
       setButtonLabel('See Students');
     } else {
       setButtonLabel('See Teachers');
@@ -45,22 +45,24 @@ function App() {
   return (
     <div>
     <input type="text" id="name-search" placeholder='type a name' onChange={searchingName}></input>
+    <div id="teachertogglebox">
     <button onClick={switchLists} id="teachertoggle">{buttonLabel}</button>
+    </div>
     <ul id="doublelists">
-      <ul>
+      <ul style={!teacherList ? {visibility: "visible"} : {visibility: "hidden"}}>
     {studentData.map((student) => {
       if (!nameSearch(searchedName, student.name)) {
         return null;
       } else {
-      return <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest} crestEffect={student.crestEffect} uniquecolor={student.color} cresticon={student.crestIcon}/>}
+      return <StudentProfile key={student.id} name={student.name} pic={student.face} age={student.age} likes={student.likes} crest={student.crest} crestEffect={student.crestEffect} uniquecolor={student.color} cresticon={student.crestIcon} courses={[]} favSubjects={student.favSubjects}/>}
 })}
 </ul>
-<ul>
+<ul style={teacherList ? {visibility: "visible"} : {visibility: "hidden"}}>
     {teacherData.map((teacher) => {
       if (!nameSearch(searchedName, teacher.name)) {
         return null;
       } else {
-        return <StudentProfile key={teacher.id} name={teacher.name} pic={teacher.face} age={teacher.age} likes={teacher.likes} crest={teacher.crest} crestEffect={teacher.crestEffect} uniquecolor={teacher.color} cresticon={teacher.crestIcon}/>}
+        return <StudentProfile key={teacher.id} name={teacher.name} pic={teacher.face} age={teacher.age} likes={teacher.likes} crest={teacher.crest} crestEffect={teacher.crestEffect} uniquecolor={teacher.color} cresticon={teacher.crestIcon} courses={teacher.courses} favSubjects={[]}/>}
     })}
     </ul>
     </ul>

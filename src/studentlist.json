@@ -9,7 +9,8 @@
       "likes": ["tactics", "schemes", "parties"],
       "crest": "Minor Crest of Riegan",
       "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
-      "color": "yellow"
+      "color": "yellow",
+      "favSubjects": ["Bows", "Flying", "Swords", "Horse Riding", "Tactics", "Axes??"]
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "likes": ["saving money", "bow maintenance", "CAPTAIN JERALT"],
       "crest": "none",
       "crestEffect": "CAPTAIN JERALT > crest",
-      "color": "orange"
+      "color": "orange",
+      "favSubjects": ["Bows", "Lances", "Horse Riding"]
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "likes": ["pretty stones", "star gazing", "nicknames"],
       "crest": "Minor Crest of Timotheos",
       "crestEffect": "Conserves uses of recovery magic.",
-      "color": "green"
+      "color": "green",
+      "favSubjects": ["Dark Magic", "Flying", "Horse Riding", "Axes??"]
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "likes": ["sweets", "magic research", "studying"],
       "crest": "Major Crest of Gloucester / Minor Crest of Charon",
       "crestEffect": "Raises Might by 5 during magic attacks. / Raises Might when using combat arts.",
-      "color": "silver"
+      "color": "silver",
+      "favSubjects": ["Dark Magic", "White Magic", "Tactics", "Swords??"]
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "likes": ["art and theater", "flirting", "taking it easy"],
       "crest": "Minor Crest of Gautier",
       "crestEffect": "Raises Might by 5 when using combat arts.",
-      "color": "gray"
+      "color": "gray",
+      "favSubjects": ["Lances", "Axes", "Horse Riding", "Black Magic??"]
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "likes": ["chatting", "omg! accessories!", "like, taking it easy and stuff"],
       "crest": "Minor Crest of Goneril",
       "crestEffect": "Prevents enemy counterattacks when using combat arts.",
-      "color": "pink"
+      "color": "pink",
+      "favSubjects": ["Axes", "Lances", "Armor??"]
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "likes": ["training", "quick meals", "よっしゃ〜！いくぜぇ！"],
       "crest": "none",
       "crestEffect": "Right makes might, right?",
-      "color": "aquamarine"
+      "color": "aquamarine",
+      "favSubjects": ["Gauntlets", "Axes"]
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "likes": ["brawling", "adventure", "punching beasts", "older women"],
       "crest": "Major Crest of Chevalier",
       "crestEffect": "Restores HP equal to 30% of damage dealt when using combat arts.",
-      "color": "brown"
+      "color": "brown",
+      "favSubjects": ["Gauntlets", "Axes", "Swords", "Armor", "White Magic", "Black Magic??"]
     }
   ]
 }

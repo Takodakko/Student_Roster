@@ -3,6 +3,12 @@ import { useState } from 'react';
 
 function StudentProfile(props) {
   const [isShown, setIsShown] = useState(false);
+  const coursesTaught = props.courses.map((course) => {
+    return <li key={props.name + course}><i>{course}</i></li>
+  }) || null;
+  const favoriteSubjects = props.favSubjects.map((fav) => {
+    return <li key={props.name + fav}><i>{fav}</i></li>
+  }) || null;
   function showCrestDetails() {
     if (isShown === true) {
       return {visibility: "visible", backgroundColor: props.uniquecolor}
@@ -30,6 +36,8 @@ function StudentProfile(props) {
       <img src={props.pic} height="120px" width="120px"></img>
       <div><strong>Age:</strong> {props.age}</div>
       <ul><strong>Interests:</strong> {interests}</ul>
+      <ul style={!coursesTaught.length ? {display: "none"} : {display: "block"}}><strong>Courses Taught: </strong>{coursesTaught}</ul>
+      <ul style={!favoriteSubjects.length ? {display: "none"} : {display: "block"}}><strong>Favorite Subjects: </strong>{favoriteSubjects}</ul>
       <div onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}><strong>Crest:</strong> {props.crest}<div className="crest-effect" style={showCrestDetails()}>{props.crestEffect}<br></br>{crestIcons}</div></div>
     </div>
   )

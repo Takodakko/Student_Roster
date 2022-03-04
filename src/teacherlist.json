@@ -9,7 +9,56 @@
       "likes": ["silence", "telling it like it is"],
       "crest": "none",
       "crestEffect": "...",
-      "color": "purple"
+      "color": "purple",
+      "courses": ["Sit down, Shut up, and Snipe", "How to Breathe", "Foreign Bow Techniques"]
+    },
+    {
+      "id": 101,
+      "face": "../images/jeritza.png",
+      "crestIcon": ["../images/lamine.png"],
+      "name": "Jeritza",
+      "age": 21,
+      "likes": ["sweets", "definitely not socializing"],
+      "crest": "Minor Crest of Lamine",
+      "crestEffect": "Conserves uses of recovery magic.",
+      "color": "wheat",
+      "courses": ["Fight me", "Dueling 101", "Relishing in the blood of your enemies"]
+    },
+    {
+      "id": 102,
+      "face": "../images/hanneman.png",
+      "crestIcon": ["../images/indech.png"],
+      "name": "Hanneman",
+      "age": 51,
+      "likes": ["crests", "crest research", "monocles"],
+      "crest": "Minor Crest of Indech",
+      "crestEffect": "Strike twice when using a weapon.",
+      "color": "tan",
+      "courses": ["The Physical Mage: How to Incorporate Bow Techniques into your training", "Fire from your Fingertips: A Magic Introduction", "Leveraging Crest Power"]
+    },
+    {
+      "id": 103,
+      "face": "../images/catherine.png",
+      "crestIcon": ["../images/charon.png"],
+      "name": "Catherine",
+      "age": 27,
+      "likes": ["Lady Rhea", "strong opponents", "defending Lady Rhea"],
+      "crest": "Major Crest of Charon",
+      "crestEffect": "Raises Might when using combat arts.",
+      "color": "red",
+      "courses": ["Advanced Sword Techniques", "Just Punch the Guy: What to do when Disarmed", "Philosophy 101: Why Seiros is Always Right"]
+    },
+    {
+      "id": 104,
+      "face": "../images/alois.png",
+      "crestIcon": [""],
+      "name": "Alois",
+      "age": 44,
+      "likes": ["dad jokes", "fishing", "collecting old coins"],
+      "crest": "none",
+      "crestEffect": "I have not come *ACRESS* *A CREST*!",
+      "color": "blue",
+      "courses": ["Axing Questions about Axes: How to Axentuate your Axe Skills", "Gon' Let you Use some Gauntlets: Fisticuffs 101", "Advanced Fishing"]
     }
   ]
 }
