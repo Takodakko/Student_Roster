@@ -308,9 +308,87 @@
       "likes": ["nobility", "tea", "thinking about the future of the alliance"],
       "crest": "Minor Crest of Gloucester",
       "crestEffect": "Raises Might by 5 during magic attacks.",
-      "color": "purple",
+      "color": "blue",
       "favSubjects": ["Lances", "Black Magic", "Horse Riding"],
       "house": "Golden Deer"
+    },
+    {
+      "id": 25,
+      "face": "../images/faces/bernadetta.png",
+      "crestIcon": ["../images/crests/indech.png"],
+      "name": "Bernadetta",
+      "age": 17,
+      "likes": ["knitting and embroidery", "drawing", "fan fics"],
+      "crest": "Minor Crest of Indech",
+      "crestEffect": "Strike twice when using a weapon.",
+      "color": "purple",
+      "favSubjects": ["Lances", "Bows", "Horse Riding??"],
+      "house": "Black Eagles"
+    },
+    {
+      "id": 26,
+      "face": "../images/faces/annette.png",
+      "crestIcon": ["../images/crests/dominic.png"],
+      "name": "Annette",
+      "age": 16,
+      "likes": ["studying", "singing", "dancing"],
+      "crest": "Minor Crest of Dominic",
+      "crestEffect": "Conserves uses of attack magic.",
+      "color": "orange",
+      "favSubjects": ["Axes", "Black Magic", "Tactics"],
+      "house": "Blue Lions"
+    },
+    {
+      "id": 27,
+      "face": "../images/faces/marianne.png",
+      "crestIcon": ["../images/crests/the_beast.png"],
+      "name": "Marianne",
+      "age": 17,
+      "likes": ["praying", "animals"],
+      "crest": "Minor Crest of the Beast",
+      "crestEffect": "Raises Might by 5 when using a weapon.",
+      "color": "lightblue",
+      "favSubjects": ["Swords", "White Magic", "Horse Riding", "Flying", "Lances??"],
+      "house": "Golden Deer"
+    },
+    {
+      "id": 28,
+      "face": "../images/faces/felix.png",
+      "crestIcon": ["../images/crests/fraldarius.png"],
+      "name": "Felix",
+      "age": 17,
+      "likes": ["swords", "training", "teenage angst"],
+      "crest": "Major Crest of Fraldarius",
+      "crestEffect": "Raises Might by 5 when using a weapon.",
+      "color": "gray",
+      "favSubjects": ["Swords", "Gauntlets", "Bows", "Black Magic??"],
+      "house": "Blue Lions"
+    },
+    {
+      "id": 29,
+      "face": "../images/faces/raphael.png",
+      "crestIcon": [""],
+      "name": "Raphael",
+      "age": 18,
+      "likes": ["strength training", "eating", "his sister"],
+      "crest": "none",
+      "crestEffect": "-",
+      "color": "wheat",
+      "favSubjects": ["Axes", "Gauntlets", "Armor"],
+      "house": "Golden Deer"
+    },
+    {
+      "id": 30,
+      "face": "../images/faces/mercedes.png",
+      "crestIcon": ["../images/crests/lamine.png"],
+      "name": "Mercedes",
+      "age": 22,
+      "likes": ["praying", "baking"],
+      "crest": "Minor Crest of Lamine",
+      "crestEffect": "Conserves uses of recovery magic.",
+      "color": "beige",
+      "favSubjects": ["Black Magic", "White Magic", "Bows??"],
+      "house": "Blue Lions"
     }
   ]
 }
