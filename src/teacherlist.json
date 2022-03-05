@@ -2,7 +2,7 @@
   "teacherlist": [
     {
       "id": 100,
-      "face": "../images/shamir.png",
+      "face": "../images/faces/shamir.png",
       "crestIcon": [""],
       "name": "Shamir",
       "age": 25,
@@ -15,8 +15,8 @@
     },
     {
       "id": 101,
-      "face": "../images/jeritza.png",
-      "crestIcon": ["../images/lamine.png"],
+      "face": "../images/faces/jeritza.png",
+      "crestIcon": ["../images/crests/lamine.png"],
       "name": "Jeritza",
       "age": 21,
       "likes": ["sweets", "definitely not socializing"],
@@ -28,8 +28,8 @@
     },
     {
       "id": 102,
-      "face": "../images/hanneman.png",
-      "crestIcon": ["../images/indech.png"],
+      "face": "../images/faces/hanneman.png",
+      "crestIcon": ["../images/crests/indech.png"],
       "name": "Hanneman",
       "age": 51,
       "likes": ["crests", "crest research", "monocles"],
@@ -41,8 +41,8 @@
     },
     {
       "id": 103,
-      "face": "../images/catherine.png",
-      "crestIcon": ["../images/charon.png"],
+      "face": "../images/faces/catherine.png",
+      "crestIcon": ["../images/crests/charon.png"],
       "name": "Catherine",
       "age": 27,
       "likes": ["Lady Rhea", "strong opponents", "defending Lady Rhea"],
@@ -54,7 +54,7 @@
     },
     {
       "id": 104,
-      "face": "../images/alois.png",
+      "face": "../images/faces/alois.png",
       "crestIcon": [""],
       "name": "Alois",
       "age": 44,
@@ -67,8 +67,8 @@
     },
     {
       "id": 105,
-      "face": "../images/byleth.png",
-      "crestIcon": ["../images/flames.png"],
+      "face": "../images/faces/byleth.png",
+      "crestIcon": ["../images/crests/flames.png"],
       "name": "Byleth",
       "age": 20,
       "likes": ["...", "....", "....."],
@@ -80,8 +80,8 @@
     },
     {
       "id": 106,
-      "face": "../images/seteth.png",
-      "crestIcon": ["../images/cichol.png"],
+      "face": "../images/faces/seteth.png",
+      "crestIcon": ["../images/crests/cichol.png"],
       "name": "Seteth",
       "age": "??",
       "likes": ["fishing", "story writing", "Flayn"],
@@ -93,7 +93,7 @@
     },
     {
       "id": 107,
-      "face": "../images/manuela.png",
+      "face": "../images/faces/manuela.png",
       "crestIcon": [""],
       "name": "Manuela",
       "age": "??",
@@ -102,6 +102,45 @@
       "crestEffect": "-",
       "color": "darkpurple",
       "courses": ["Healing with Spells", "Take to the Skies: Mastering the Pegasus and the Wyvern", "Health and Relationships for Young Adults"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 108,
+      "face": "../images/faces/gilbert.png",
+      "crestIcon": [""],
+      "name": "Gilbert",
+      "age": 56,
+      "likes": ["training", "fishing", "guilt", "self-flagellation"],
+      "crest": "none",
+      "crestEffect": "-",
+      "color": "darkorange",
+      "courses": ["Shield Theory", "Advanced Armor Techniques", "Philosophy of Knighthood"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 109,
+      "face": "../images/faces/rhea.png",
+      "crestIcon": ["../images/crests/seiros.png"],
+      "name": "Rhea",
+      "age": "??",
+      "likes": ["The Teachings of Seiros", "Sothis", "Faith"],
+      "crest": "Major Crest of Seiros",
+      "crestEffect": "Raises Might by 5 when using combat arts.",
+      "color": "teal",
+      "courses": ["Advanced Religion and Philosophy"],
+      "house": "Garreg Mach"
+    },
+    {
+      "id": 110,
+      "face": "../images/faces/anna.png",
+      "crestIcon": ["../images/crests/ernest.png"],
+      "name": "Anna",
+      "age": 25,
+      "likes": ["Money", "Secrets", "Open Trade"],
+      "crest": "Major Crest of Ernest",
+      "crestEffect": "Prevents enemy counterattacks when using a weapon.",
+      "color": "scarlet",
+      "courses": ["Economics 101", "Economics 202", "The Logistics of War", "Supply Lines and Battalion Management in Battle"],
       "house": "Garreg Mach"
     }
   ]
