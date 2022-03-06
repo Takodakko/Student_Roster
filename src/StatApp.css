@@ -1,0 +1,26 @@
+#unitgrid > ul > div {
+  display: grid;
+  gap: 10px 20px;
+  column-count: 22;
+  column-width: 50px;
+}
+
+#unitgrid > ul > div > div {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+table {
+  margin: .3em;
+  width: 300px;
+}
+
+th {
+  padding: .2em;
+}
+
+td {
+  padding: .2em;
+  border: 1px solid black;
+}
