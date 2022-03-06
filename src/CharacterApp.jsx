@@ -58,13 +58,21 @@ function CharacterApp(props) {
     setTeacherData(inOrder);
   }
   function orderRandomly() {
-    const randomStudents = [...studentData].sort((a, b) => {
-      return a.id - b.id;
-    });
+    const copyStudents = [...studentData];
+    const randomStudents = [];
+    while (copyStudents.length) {
+      const randomNumber = Math.floor(Math.random() * copyStudents.length);
+      randomStudents.push(copyStudents[randomNumber]);
+      copyStudents.splice(randomNumber, 1);
+    }
     setStudentData(randomStudents);
-    const randomTeachers = [...teacherData].sort((a, b) => {
-      return a.id - b.id;
-    });
+    const copyTeachers = [...teacherData];
+    const randomTeachers = [];
+    while (copyTeachers.length) {
+      const randomNumber = Math.floor(Math.random() * copyTeachers.length);
+      randomTeachers.push(copyTeachers[randomNumber]);
+      copyTeachers.splice(randomNumber, 1);
+    }
     setTeacherData(randomTeachers);
   }
   function orderByClass() {
@@ -91,7 +99,7 @@ function CharacterApp(props) {
     <div>
       <div id="controlpanel">
         <button onClick={orderByAlphabet}>Order Alphabetically</button>
-        <button onClick={orderRandomly}>Order "Randomly"</button>
+        <button onClick={orderRandomly}>Order Randomly</button>
         <button onClick={orderByClass}>Order by Class</button>
         <button onClick={orderByAge}>Order by Age</button>
       </div>
