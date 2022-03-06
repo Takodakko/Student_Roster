@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import CharacterApp from './CharacterApp';
 import StatApp from './StatApp';
-
+import './App.css';
 function App() {
   const [unitDisplay, setUnitDisplay] = useState(true);
   function toggleDisplay() {
@@ -9,7 +9,9 @@ function App() {
   }
   return (
   <div>
-    <button onClick={toggleDisplay}>Toggle Character Info and Unit Info</button>
+    <div id="togglestatpersonal">
+      <button onClick={toggleDisplay}>Toggle Character Info and Unit Info</button>
+    </div>
     <div style={unitDisplay ? {display: "block"} : {display: "none"}}>
       <CharacterApp showOrHide={unitDisplay}/>
     </div>

@@ -87,7 +87,13 @@ function CharacterApp(props) {
   }
   function orderByAge() {
     const orderedStudents = [...studentData].sort((a, b) => {
-      return (a.age < b.age) ? -1 : 1;
+      if (a.name === "Flayn") {
+        return 1;
+      }
+      if (b.name === "Flayn") {
+        return -1;
+      }
+      return (a.age > b.age) ? 1 : -1;
     });
     setStudentData(orderedStudents);
     const orderedTeachers = [...teacherData].sort((a, b) => {
