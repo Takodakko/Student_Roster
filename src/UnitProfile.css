@@ -3,5 +3,37 @@
 }
 
 .grayrow {
+  background-color: gray;
+}
+
+.pinkrow {
+  background-color: pink;
+}
+
+.redrow {
+  background-color: red;
+}
+
+.lightbluerow {
+  background-color: lightblue;
+}
+
+.bluerow {
+  background-color: blue;
+}
+
+.wheatrow {
+  background-color: wheat;
+}
+
+.yellowrow {
+  background-color: yellow;
+}
+
+.beigerow {
   background-color: beige;
+}
+
+.lightgrayrow {
+  background-color: lightgray;
 }
