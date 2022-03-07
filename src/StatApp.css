@@ -2,7 +2,7 @@
   display: grid;
   gap: 10px 20px;
   column-count: 22;
-  column-width: 50px;
+  column-width: 40px;
 }
 
 #unitgrid > ul > div > div {
@@ -13,11 +13,16 @@
 
 table {
   margin: .3em;
-  width: 300px;
+  width: 200px;
 }
 
 th {
   padding: .2em;
+  
+}
+
+th > button {
+  font-size: 15px;
 }
 
 td {
