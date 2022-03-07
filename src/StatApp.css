@@ -29,3 +29,11 @@ td {
   padding: .2em;
   border: 1px solid black;
 }
+
+.current-column {
+  border: 3px solid purple;
+}
+
+.non-focus {
+  border: 1px solid black;
+}
