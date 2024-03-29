@@ -1,19 +1,21 @@
 import './StudentProfile.css';
 import { useState } from 'react';
+import imageList from './imageList';
 
 function StudentProfile(props) {
+  const { Golden_Deer_Banner, Blue_Lions_Banner, Black_Eagles_Banner, Ashen_Wolves_Banner, Church_of_Seiros_Banner } = imageList;
   const [isShown, setIsShown] = useState(false);
   const houseIcon = ()=> {
     if (props.house === "Golden Deer") {
-      return "../images/Golden_Deer_Banner.webp"
+      return Golden_Deer_Banner;
     } else if (props.house === "Blue Lions") {
-      return "../images/Blue_Lions_Banner.webp"
+      return Blue_Lions_Banner;
     } else if (props.house === "Black Eagles") {
-      return "../images/Black_Eagles_Banner.webp"
+      return Black_Eagles_Banner;
     } else if (props.house === "Ashen Wolves") {
-      return "../images/Ashen_Wolves_Banner.webp"
+      return Ashen_Wolves_Banner;
     } else {
-      return "../images/Church_of_Seiros_Banner.webp"
+      return Church_of_Seiros_Banner;
     }
   }
   // const crestEffectText = {__html: props.crestEffect};

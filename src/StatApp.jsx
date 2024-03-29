@@ -1,14 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import UnitProfile from './UnitProfile.jsx';
 import './StatApp.css';
+import characterLists from './characterLists.js';
 
 function StatApp() {
-  const [unitData, setUnitData] = useState([]);
-  useEffect(() => {fetch('src/unitlist.json')
-  .then((data) => {
-    return (data.json())})
-  .then((data) => {
-      return setUnitData(data.unitlist)})}, []);
+  const { unitList } = characterLists;
+  const [unitData, setUnitData] = useState(unitList);
   
   const [specialOrder, setSpecialOrder] = useState(false);
   
