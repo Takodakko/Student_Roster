@@ -3,7 +3,7 @@ import CharacterApp from './CharacterApp';
 import StatApp from './StatApp';
 import './App.css';
 function App() {
-  const [unitDisplay, setUnitDisplay] = useState(true);
+  const [unitDisplay, setUnitDisplay] = useState(false);
   function toggleDisplay() {
     setUnitDisplay(!unitDisplay);
   }
